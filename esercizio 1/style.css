@@ -22,30 +22,55 @@ button {
 
 #primo {
     /* inserisci qui il codice per il primo elemento*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
 }
 
 #secondo {
     /* inserisci qui il codice per il secondo elemento*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+
 }
 
 #terzo {
     /* inserisci qui il codice per il terzo elemento*/
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color: green;
 }
 
 #quarto {
     /* inserisci qui il codice per il quarto elemento*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
 }
 
 #quinto {
     /* inserisci qui il codice per il quinto elemento*/
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color: red;
 }
 
 #verde {
     background-color: lightseagreen;
-
+    padding: 31px;
+    padding-left: 44%;
+    margin-left: 20px;
 }
 
 #blu {
     background-color: lightskyblue;
+    padding: 31px;
+    padding-left: 44%;
 }
 
